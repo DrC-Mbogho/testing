@@ -4,5 +4,6 @@ public class TestingGit
    {
      System.out.println ("Just testing Git and GitHub"); 
      System.out.print("Adding a new line");
+     System.out.println("Adding to fetch");
    }
 }
