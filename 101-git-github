@@ -1,0 +1,11 @@
+Git is for version control and tracking changes on local and cloud files.
+Github is for hosting and collaborating on code.
+Install and set up Git on your local machine and a GitHub profile.
+I checked the version of git on my machine using git --version command.
+I set the username and emails that I used to create GitHub profile by using git --global user.name and user.email commands on Git Terminal 
+Created Java code and saved them in a Desktop folder.
+On my terminal, I navigated to that folder using cd command.
+I initialized git using git --init command, told Git to watch this folder, and also created a hidden folder (repo) to which it will track added and committed files. 
+I checked if my Java code is part of the repo by using git --status command. The code was not yet part of the repo according to the 'untracked' files message. The files that are in the working directory, but not added to the git repository.
+I added the two files to the staging environment using git add --all command. Could also have added single files by replacing -all with the filename. Staged files are files that are ready to be committed to the repository.
+I committed all the files by using git --commit message command. Adding commits keep track of the progress and changes on the files, by considering each commit as a 'save point'. 
